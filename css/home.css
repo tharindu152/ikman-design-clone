@@ -35,15 +35,15 @@ header #header-wrapper {
     margin: 0 auto;
 }
 
-header #nav-bar {
-    width: 1000px;
+header #header-wrapper #nav-bar {
+    width: 100%;
     margin: 0 auto;
     height: 65px;
     display: flex;
     justify-content: space-between;
 }
 
-header #nav-bar #nav-1{
+header #header-wrapper #nav-bar #nav-1{
     display: flex;
     align-items: center;
 }
@@ -150,16 +150,16 @@ header #search-area #location {
 
 header #search-area #search-bar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
-    width: 750px;
+    width: 80%;
     height: 60px;
     border-radius: 35px;
 } 
 
 header #search-area #search-bar input{
-    width: 675px;
+    width: 90%;
     border: none;
     margin-left: 15px;
 }
@@ -179,6 +179,7 @@ header #search-area #search-bar .bi {
     position: relative;
     text-align: center;
     padding: 10px;
+    margin-right: 5px;
 }
 
 
@@ -519,8 +520,19 @@ footer #copyright img {
     width: 125px;
 }
 
-div .col {
+body #notice {
+   visibility: hidden;
 }
 
-.row .col{
+
+
+@media all and (max-width:1000px){
+    body #view {
+        visibility: hidden;
+    }
+
+    body #notice {
+        display: block;
+    }
+
 }
