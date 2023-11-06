@@ -20,7 +20,7 @@ This project was created using CSS3 and HTML5. Device viewport responsiveness an
      - inline elements - mark, strong, emphasis
 
 ### Live Demo
-[Click here for the Live Demo](https://tharindu152.github.io/google-design-clone/)
+[Click here for the Live Demo](https://tharindu152.github.io/ikman-design-clone/)
 
 ### License
 All product logos, designs, and trademarks, with the exception of the code, are copyrighted and belong to their respective owners. 
