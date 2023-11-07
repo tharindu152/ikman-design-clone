@@ -23,7 +23,7 @@ header {
     padding-right: 10px;
     background-color: var(--theme-green);
     height: 250px;
-    width: 150vw;
+    width: 100%;
     position: relative;
 }
 
@@ -159,7 +159,7 @@ header #search-area #search-bar {
 } 
 
 header #search-area #search-bar input{
-    width: 90%;
+    width: 100%;
     border: none;
     margin-left: 15px;
 }
@@ -200,6 +200,7 @@ main #add-bar img {
 main #add-bar img:nth-child(1) {
     width: 400px;
     object-fit: contain;
+    animation: add-1 3s infinite;
 }
 
 main #add-bar img:nth-child(2) {
@@ -264,7 +265,6 @@ main #items .row .col .inner-col{
 main #items .row .col .inner-col label:hover {
     cursor: pointer;
 }
-
 
 main #items .row .col img{
     width: 60px;    
@@ -433,7 +433,7 @@ main #about label:first-child {
 
 body #seperator {
     margin-top: 10px;
-    width: 100vw;
+    width: 100%;
     height: 2px;
     background-color: var(--theme-green);
 }
@@ -520,19 +520,25 @@ footer #copyright img {
     width: 125px;
 }
 
-body #notice {
-   visibility: hidden;
+#notice {
+    visibility: hidden;
+    position: fixed;
 }
+
+/* Animations */
 
 
 
 @media all and (max-width:1000px){
-    body #view {
+    body {
         visibility: hidden;
     }
 
     body #notice {
-        display: block;
+        margin-top: 10%;
+        visibility: visible;
+        font-size: 2rem;
+        color: red;
+        text-align: center;
     }
-
 }
