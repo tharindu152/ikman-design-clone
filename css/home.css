@@ -444,12 +444,14 @@ main #links #row #col div {
 main #links #row #col div label:first-child{
     font-size: 0.9rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 main #links #row #col div label:last-child{
     margin-top: 20px;
     font-size: 0.9rem;
     line-height: 2;
+    cursor: pointer;
 }
 
 main #links #row{
@@ -462,6 +464,10 @@ main #about {
     color: rgb(92, 90, 90);
     font-size: 0.9rem;
     line-height: 2;
+}
+
+main #about div{
+    cursor: pointer;
 }
 
 main #about label:first-child {
@@ -504,10 +510,12 @@ footer #options .row .col-4 #div-2{
 footer #options .row .col-4 #div-2 #fb{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 footer #options .row .col-4 #div-2 img {
     width: 30px;
+    cursor: pointer;
 }
 
 footer #options .row .col-4 #div-2:nth-child(2) {
@@ -519,11 +527,13 @@ footer #options .row .col-4 #div-2 label:nth-child(2) {
     color:  rgb(71,90,149);
     font-weight: bold;
     font-size: .9rem;
+    cursor: pointer;
 }
 
 footer #options .row .col-4 #div-2 label:nth-child(4) {
     color: rgb(0,116,186);
     font-size: .9rem;
+    cursor: pointer;
 }
 
 footer #options .row .col-4 div img:first-child {
@@ -538,6 +548,7 @@ footer #options .row .col-4 div img:last-child {
 footer #options #option-lable{
     font-weight: bold;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 
 footer #option-lable li:first-child {
@@ -548,6 +559,7 @@ footer #options #option-lable li {
     font-weight: 400;
     line-height: 2;
     color:  rgb(0,116,186);
+    cursor: pointer;
 }
 
 footer #copyright {
