@@ -20,6 +20,10 @@ This project was created using CSS3 and HTML5. Device viewport responsiveness an
      - inline elements - mark, strong, emphasis
 
 ### Live Demo
+- Desktop view
+<img width="400" src="https://github.com/tharindu152/ikman-design-clone/blob/main/img/descktop.png">
+- Mobile view
+<img width="200" src="https://github.com/tharindu152/ikman-design-clone/blob/main/img/mobile.png">
 [Click here for the Live Demo](https://tharindu152.github.io/ikman-design-clone/)
 
 ### License
